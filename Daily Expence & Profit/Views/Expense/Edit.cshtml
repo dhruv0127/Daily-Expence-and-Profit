@@ -1,0 +1,131 @@
+﻿@model Daily_Expence___Profit.Models.ExpenseTransaction
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+    .back-link {
+        font-size: 35px;
+        text-decoration: none !important; /* Remove underline */
+        color: black; /* Change text color to black or your preferred color */
+    }
+
+    .save-button {
+        background: linear-gradient(135deg, #1e0079a7, #0f003d); /* Dark blue gradient */
+        color: white; /* Text color */
+        margin-top: 20px; /* Add top margin */
+        width: 100%; /* Let the button size itself based on content */
+        padding-left: 10px; /* Add some left padding for better alignment with text fields */
+        padding-right: 10px; /* Add some right padding for better alignment with text fields */
+        transition: box-shadow 0.3s ease; /* Add transition for box-shadow */
+    }
+
+        .save-button:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Add a glow effect on hover */
+        }
+
+    .transaction-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .transaction-button {
+        width: 48%; /* Adjust button width as needed */
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .income-button {
+        background-color: grey;
+        color: white;
+    }
+
+    .expense-button {
+        background-color: grey;
+        color: white;
+    }
+
+    .income-button.active {
+        background-color: green;
+    }
+
+    .expense-button.active {
+        background-color: red;
+    }
+</style>
+
+
+<script>
+    $(document).ready(function () {
+        $("#incomeButton").click(function () {
+            $(".transaction-button").removeClass("active");
+            $(this).addClass("active");
+            $("#TransactionType").val("Income");
+        });
+
+        $("#expenseButton").click(function () {
+            $(".transaction-button").removeClass("active");
+            $(this).addClass("active");
+            $("#TransactionType").val("Expense");
+        });
+    });
+</script>
+
+<h1>
+    <a asp-action="Index" asp-controller="Expense" class="back-link">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+    Edit
+</h1>
+
+<h4>ExpenseTransaction</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label asp-for="TransactionType" class="control-label">Transaction Type</label>
+            <div class="transaction-buttons">
+                <button id="incomeButton" type="button" class="transaction-button income-button @(Model.TransactionType == Daily_Expence___Profit.Models.TransactionType.Income ? "active" : "")">Income</button>
+                <button id="expenseButton" type="button" class="transaction-button expense-button @(Model.TransactionType == Daily_Expence___Profit.Models.TransactionType.Expense ? "active" : "")">Expense</button>
+            </div>
+        </div>
+
+
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary save-button" />
+            </div>
+            <input type="hidden" asp-for="TransactionType" />
+
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,76 @@
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\appsettings.Development.json
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\appsettings.json
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Daily Expence & Profit.staticwebassets.runtime.json
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Daily Expence & Profit.exe
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Daily Expence & Profit.deps.json
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Daily Expence & Profit.runtimeconfig.json
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Daily Expence & Profit.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Daily Expence & Profit.pdb
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Azure.Core.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Azure.Identity.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Humanizer.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\System.CodeDom.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\System.Memory.Data.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.csproj.AssemblyReference.cache
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.GeneratedMSBuildEditorConfig.editorconfig
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.AssemblyInfoInputs.cache
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.AssemblyInfo.cs
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.csproj.CoreCompileInputs.cache
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.MvcApplicationPartsAssemblyInfo.cache
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.RazorAssemblyInfo.cache
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.RazorAssemblyInfo.cs
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\staticwebassets\msbuild.Daily Expence & Profit.Microsoft.AspNetCore.StaticWebAssets.props
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\staticwebassets\msbuild.build.Daily Expence & Profit.props
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Daily Expence & Profit.props
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Daily Expence & Profit.props
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\staticwebassets.pack.json
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\staticwebassets.build.json
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\staticwebassets.development.json
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\scopedcss\bundle\Daily Expence & Profit.styles.css
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\scopedcss\projectbundle\Daily Expence & Profit.bundle.scp.css
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.csproj.CopyComplete
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\refint\Daily Expence & Profit.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.pdb
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\Daily Expence & Profit.genruntimeconfig.cache
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\obj\Debug\net7.0\ref\Daily Expence & Profit.dll
+E:\App Dev\Net\Daily Expence & Profit\Daily Expence & Profit\bin\Debug\net7.0\libman.json

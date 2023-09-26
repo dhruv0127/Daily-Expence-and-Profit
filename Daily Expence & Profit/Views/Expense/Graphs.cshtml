@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Graphs";
+}
+<div>
+    <label for="selectedYear">Select Year:</label>
+    <select id="selectedYear">
+        @foreach (var year in ViewBag.AvailableYears)
+        {
+            <option value="@year">@year</option>
+        }
+    </select>
+    <button id="refreshButton">Refresh</button>
+</div>
+
+<div id="chartDiv">
+    <canvas id="teamChart" height="200" width="600"></canvas>
+</div>
+
+@section Scripts
+    {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Initialize the chart with the initial data
+            const ctx = document.getElementById('teamChart').getContext('2d');
+            let teamChart;
+
+            // Function to update the chart with new data
+            function updateChart(data) {
+                if (teamChart) {
+                    teamChart.destroy(); // Destroy the existing chart
+                }
+
+                teamChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: data,
+                    options: {
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: 'Number of Income & Expense in Year'
+                            }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Handle year selection and refresh the chart
+            $('#refreshButton').click(function () {
+                const selectedYear = $('#selectedYear').val();
+
+                // Add a console.log statement to check the selectedYear value.
+                console.log('Selected Year:', selectedYear);
+
+                // Make an AJAX request to the controller action with the selected year
+                $.get('/Expense/Graphs', { selectedYear: selectedYear }, function (data) {
+                    if (data.error) {
+                        // Handle the error, e.g., display an error message in the console or on the page.
+                        console.error('Error:', data.error);
+                    } else {
+                        // Update the chart with the new data
+                        updateChart(data);
+                    }
+                }).fail(function () {
+                    // Handle AJAX request failure
+                    console.error('AJAX request failed.');
+                });
+            });
+
+            // Initialize the chart with the initial data
+            updateChart(@Html.Raw(Json.Serialize(Model))); // Deserialize the data passed from the controller
+        });
+    </script>
+
+
+
+}
